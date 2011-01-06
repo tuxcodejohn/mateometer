@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#This is a small matometer standalone hack
+
+
+TMPF=`tempfile -p rec_ -s .wav`
+
+play -q  -n synth sin %-2 fade h 0.01 .3 0.01 
+rec  -q -S  -c 1 -r 44100 -b 16 $TMPF trim .2 2  fade .1 1.5 .1
+python	matometer.py -i $TMPF
+rm $TMPF
