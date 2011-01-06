@@ -2,7 +2,7 @@
 
 
 #Matometer, the matefill detector baseed on aubiopitch.by Paul Brossier 
-#Copyright (C) 2011  _john john@tuxcode.org
+#Copyright (C) 2011  _john john_atsign_tuxcode_dotorg
 
 #This program is free software; you can redistribute it and/or
 #modify it under the terms of the GNU General Public License
