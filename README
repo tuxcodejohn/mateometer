@@ -1,2 +1,8 @@
-TODO
+Abhängigkeiten / dependecies:
+
+aptitude install python-aubio sox
+
+TODO more description
+
+
 
